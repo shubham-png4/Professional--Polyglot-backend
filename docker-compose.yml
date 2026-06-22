@@ -1,0 +1,8 @@
+
+services:
+  fastapi:
+    build: ./fastapi_app
+  node:
+    build: ./node_service
+  go:
+    build: ./go_service
